@@ -1,0 +1,35 @@
+{
+  "styleName": "轻松幽默",
+  "tone": "轻松、幽默、略带调侃",
+  "languageCharacteristics": {
+    "vocabulary": [
+      "常用口语化表达",
+      "适度使用网络流行语",
+      "避免过于严肃的词汇"
+    ],
+    "sentenceStructure": [
+      "句式多变，长短句结合",
+      "适当使用反问和设问",
+      "使用排比和对比增强效果"
+    ],
+    "rhetoric": [
+      "多用比喻和拟人",
+      "适度使用夸张和反讽",
+      "增加对话的趣味性"
+    ]
+  },
+  "narrationStyle": {
+    "perspective": "第三人称，可适当加入吐槽",
+    "pace": "中等偏快，保持轻松感",
+    "description": "生动有趣，避免过于严肃的描述"
+  },
+  "dialogueStyle": {
+    "characterization": "体现角色个性，增加幽默感",
+    "tone": "轻松自然，偶尔调皮",
+    "interaction": "角色间的对话可增加调侃元素"
+  },
+  "examples": {
+    "before": "林轩严肃地说道：'此事关乎重大，不可轻率行动。'",
+    "after": "林轩一脸严肃：'这事可不能乱来啊，万一搞砸了咋办？'"
+  }
+}

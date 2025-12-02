@@ -1,0 +1,13 @@
+{
+  "template": {
+    "title": "{{NOVEL_TITLE}}",
+    "author": "{{AUTHOR_NAME}}",
+    "genre": "{{GENRE}}",
+    "chapterCount": "{{CHAPTER_COUNT}}",
+    "wordCountPerChapter": 3000,
+    "characterCards": [],
+    "worldview": {},
+    "powerSystem": {},
+    "foreshadows": []
+  }
+}

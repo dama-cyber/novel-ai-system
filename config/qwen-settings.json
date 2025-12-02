@@ -1,0 +1,50 @@
+{
+  "sessionTokenLimit": 32000,
+  "tokenSafetyMargin": 7000,
+  "experimental": {
+    "vlmSwitchMode": "once",
+    "visionModelPreview": false
+  },
+  "novel": {
+    "autoSave": true,
+    "autoBackup": true,
+    "backupInterval": 10,
+    "compressionThreshold": 25000,
+    "maxChapterLength": 3000,
+    "summaryChunkSize": 4000,
+    "autoCompressInterval": 5
+  },
+  "revision": {
+    "splitBook": {
+      "analysisDepth": "detailed",
+      "outputFormat": "markdown",
+      "includeSuggestions": true
+    },
+    "styleEngineering": {
+      "preservePlot": true,
+      "maintainWordCount": true,
+      "styleGuidePath": "./config/style-guides/"
+    },
+    "revisionProcess": {
+      "phases": ["analysis", "planning", "implementation"],
+      "backupOnModify": true,
+      "validationRequired": true
+    }
+  },
+  "api": {
+    "timeout": 120000,
+    "retryAttempts": 3,
+    "retryDelay": 1000
+  },
+  "qwenCoderCLI": {
+    "enhancedMode": true,
+    "autoTokenManagement": true,
+    "batchSize": 5,
+    "pauseBetweenBatches": 15,
+    "interactiveMode": {
+      "enableColorOutput": true,
+      "showProgress": true,
+      "confirmMajorActions": true
+    }
+  }
+}

@@ -1,0 +1,44 @@
+# 依赖目录
+node_modules/
+
+# 项目生成的文件
+projects/
+temp/
+output/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+*.log
+
+# 编辑器文件
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 操作系统文件
+.DS_Store
+ehthumbs.db
+Icon?
+desktop.ini
+
+# 环境变量
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 测试相关
+coverage/
+.nyc_output/
+
+# 构建输出
+build/
+dist/
+out/
+
+# 临时测试文件
+tests/simulation/test-*.md
+tests/simulation/test-*.json

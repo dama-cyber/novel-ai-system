@@ -1,0 +1,16 @@
+{
+  "prompts": {
+    "outline": {
+      "detailed-outline": "./prompts/outline/detailed-outline.txt"
+    },
+    "chapter": {
+      "mid-chapter": "./prompts/chapter/mid-chapter.txt"
+    },
+    "character": {
+      "character-profile": "./prompts/character/character-profile.txt"
+    },
+    "worldview": {
+      "worldview-setting": "./prompts/worldview/worldview-setting.txt"
+    }
+  }
+}

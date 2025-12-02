@@ -1,0 +1,23 @@
+{
+  "name": "novel-ai-system-v16",
+  "version": "16.0.0",
+  "description": "超长篇小说AI创作系统 v16.0 [Qwen-Code专属版]",
+  "main": "index.js",
+  "scripts": {
+    "web-fetch": "node tools/web-fetcher.js"
+  },
+  "keywords": [
+    "ai",
+    "writing",
+    "novel",
+    "creative"
+  ],
+  "author": "Novel AI System",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

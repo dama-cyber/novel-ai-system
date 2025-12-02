@@ -1,0 +1,9 @@
+#!/bin/bash
+# novelai - 超长篇小说AI创作系统简化指令入口
+# 使用方法: novelai <简化指令> [参数]
+
+# 获取脚本目录
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+# 调用简化指令包装器
+$SCRIPT_DIR/00-shortcuts.sh "$@"
